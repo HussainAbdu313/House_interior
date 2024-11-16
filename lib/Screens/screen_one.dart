@@ -61,8 +61,8 @@ class _ScreenOneState extends State<ScreenOne> {
                 margin: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
                   image: const DecorationImage(
-                    image: AssetImage(''),
-                  ),
+                      image: AssetImage('assets/images/Apartment 01.jpg'),
+                      fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(25),
                 ),
               ),
