@@ -41,14 +41,17 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
-              Icons.home,
-              size: 100,
+              Icons.miscellaneous_services_rounded,
+              size: 130,
               color: Colors.white,
             ),
+            SizedBox(
+              height: 20,
+            ),
             Text(
-              'Home Inerior Designs',
+              'AIZA Techinical Services',
               style: TextStyle(
-                fontSize: 30,
+                fontSize: 40,
                 fontWeight: FontWeight.bold,
                 fontStyle: FontStyle.italic,
                 color: Colors.white,

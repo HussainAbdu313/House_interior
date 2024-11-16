@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hussain_new_project/Screens/screen_four.dart';
+import 'package:hussain_new_project/Screens/screen_one.dart';
 import 'package:hussain_new_project/Screens/screen_three.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -13,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int indexValue = 0;
 
   List<Widget> screens = [
-    // const ScreenOne(),
+    const ScreenOne(),
     // const ScrennTwo(),
     const ScreenThree(),
     const ScreenFour(),
