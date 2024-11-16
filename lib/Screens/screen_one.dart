@@ -13,10 +13,6 @@ class _ScreenOneState extends State<ScreenOne> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const Icon(
-          Icons.arrow_back,
-          color: Colors.black,
-        ),
         title: const Text(
           'House Interior Designs',
           style: TextStyle(color: Colors.black),
@@ -64,13 +60,16 @@ class _ScreenOneState extends State<ScreenOne> {
               Container(
                 margin: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: Colors.amber,
-                  borderRadius: BorderRadius.circular(20),
+                  image: const DecorationImage(
+                    image: AssetImage(''),
+                  ),
+                  borderRadius: BorderRadius.circular(25),
                 ),
               ),
             ],
             options: CarouselOptions(
               height: 200,
+              aspectRatio: 16 / 8,
               autoPlay: true,
               autoPlayInterval: const Duration(seconds: 3),
               autoPlayAnimationDuration: const Duration(milliseconds: 800),
